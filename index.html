@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="area">
+        <div>Bumbiņu skaits virtenē: 20 | 35 | 60</div>
+        <div>
+            Ieslēgt lampiņas | Izslēgt lampiņas
+        </div>
+        <div>
+            <div class="ball-picker">
+                <span id="blue" class="circle" draggable="true" ondragstart="drag(event)"></span>
+                <span id="green" class="circle" draggable="true" ondragstart="drag(event)"></span>
+                <span id="red" class="circle"draggable="true" ondragstart="drag(event)"></span>
+            </div>
+        </div>
+        <div class="image-grid-item">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <defs></defs>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="100.829" cy="88.225" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="53.177" cy="159.357" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="185.774" cy="159.356" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="142.956" cy="229.108" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="292.128" cy="203.555" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="239.642" cy="267.783" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="382.597" cy="278.142" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="299.379" cy="330.283" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="339.434" cy="414.537" rx="29.351" ry="29.351"></ellipse>
+                <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="431.285" cy="374.482" rx="29.351" ry="29.351"></ellipse>
+                <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 23.135 75.449 C 48.227 96.397 72.563 118.287 98.412 138.294 C 106.248 144.359 116.018 147.567 123.964 153.488 C 127.889 156.412 130.172 161.076 133.633 164.537 C 146.987 177.891 158.164 194.22 174.378 203.902 C 196.817 217.301 223.985 220.388 248.964 228.073 C 254.465 229.765 260.511 230.107 265.539 232.907 C 278.87 240.332 291.014 249.719 303.522 258.46 C 310.126 263.075 317.216 267.212 322.859 272.963 C 342.853 293.341 354.631 326.332 366.367 349.62 C 382.484 381.602 398.095 413.896 414.71 445.615"></path>
+              </svg>
+        </div>
+        <div>Summa kopā: 25 EUR </div>
+    </div>
+</body>
+</html>
